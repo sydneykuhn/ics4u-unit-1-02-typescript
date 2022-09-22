@@ -16,7 +16,7 @@ const objectWeightString = prompt('Enter the objects mass in kilograms : ')
 const objectWeight = parseFloat(objectWeightString)
 
 // calculate the amount of energy in joules
-const energy = objectWeight * (speedOfLight ** 2)
+const energy = objectWeight * speedOfLight ** 2
 
 if (!isNaN(objectWeight)) {
   console.log(
